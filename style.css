@@ -1,23 +1,38 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 .quiz-container {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 500px;
+  width: 700px;
   margin: 0 auto; /* Center the container */
 }
 
 .question {
   margin-bottom: 20px;
+  background-color: rgb(219, 219, 219);
+  height: 70px;
+  width: 600px;
+  border-radius: 5px;
 }
-
-.score {
-  float: left;
+.score,
+.highscore,
+.time {
+  background-color: rgb(219, 219, 219);
+  margin-bottom: 10px;
 }
-
-.options {
-  display: flex;
-  flex-direction: column;
+#question-text {
+  font-size: x-large;
 }
 
 .option {
@@ -26,14 +41,21 @@
   margin-bottom: 10px;
   border-radius: 5px;
   cursor: pointer;
+  width: 500px;
 }
 
 .option:hover {
   background-color: #e0e0e0;
 }
-.correct{
-    border: 2px solid #28a745;
+.correct {
+  border: 2px solid #28a745;
+  background-color: rgb(152, 242, 152);
 }
-.incorrect{
-    border: 2px solid red;
+.incorrect {
+  border: 2px solid red;
+  background-color: rgb(186, 90, 90);
+}
+.btn-start,
+.btn-end {
+  width: 75px;
 }

@@ -1,0 +1,77 @@
+[
+    {
+        "question": "What is the currency of Japan?",
+        "options": ["Yen", "Dollar", "Euro", "Pound"],
+        "correctAnswer": "Yen"
+    },
+    {
+        "question": "What is the Capital of Afghanistan?",
+        "options": ["Kabul", "Ghazni", "Herat", "Balkh"],
+        "correctAnswer": "Kabul"
+    },
+    {
+        "question": "What is the largest mammal?",
+        "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+        "correctAnswer": "Blue Whale"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Michelangelo"],
+        "correctAnswer": "Leonardo da Vinci"
+    },
+    {
+        "question": "What is the capital of France?",
+        "options": ["Paris", "Rome", "Berlin", "London"],
+        "correctAnswer": "Paris"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Mars", "Venus", "Jupiter", "Mercury"],
+        "correctAnswer": "Mars"
+    },
+    {
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "options": ["Harper Lee", "Ernest Hemingway", "F. Scott Fitzgerald", "J.K. Rowling"],
+        "correctAnswer": "Harper Lee"
+    },
+    {
+        "question": "What is the capital of Australia?",
+        "options": ["Canberra", "Sydney", "Melbourne", "Perth"],
+        "correctAnswer": "Canberra"
+    },
+    {
+        "question": "Who was the first man to step on the moon?",
+        "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Alan Shepard"],
+        "correctAnswer": "Neil Armstrong"
+    },
+    {
+        "question": "Which famous physicist developed the theory of relativity?",
+        "options": ["Albert Einstein", "Isaac Newton", "Stephen Hawking", "Galileo Galilei"],
+        "correctAnswer": "Albert Einstein"
+    },
+    {
+        "question": "What is the longest river in the world?",
+        "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
+        "correctAnswer": "Nile"
+    },
+    {
+        "question": "Who wrote the play 'Romeo and Juliet'?",
+        "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+        "correctAnswer": "William Shakespeare"
+    },
+    {
+        "question": "What is the capital of Brazil?",
+        "options": ["Brasília", "São Paulo", "Rio de Janeiro", "Salvador"],
+        "correctAnswer": "Brasília"
+    },
+    {
+        "question": "Which gas makes up the majority of Earth's atmosphere?",
+        "options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Helium"],
+        "correctAnswer": "Nitrogen"
+    },
+    {
+        "question": "Who is known as the 'Father of Computers'?",
+        "options": ["Charles Babbage", "Alan Turing", "Bill Gates", "Steve Jobs"],
+        "correctAnswer": "Charles Babbage"
+    }
+]

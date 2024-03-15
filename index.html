@@ -13,20 +13,32 @@
 <body>
     <div class="container">
         <div class="quiz-container">
-            <div class="question text-center">
-                <div class="score">Score: <span id="score">0</span></div>
-                <h2 id="question-text">What is the Capital of Afghanitsan?</h2>
+            <div class="row justify-content-center">
+                <div class="question pl-3 pt-3">
+                    <h2 id="question-text">Click 'Start' Button to Start</h2>
+                </div>
             </div>
-            <div class="options">
-                <div id="op1" class="option" onclick="checkAnswer(this)">Kabul</div>
-                <div id="op2" class="option" onclick="checkAnswer(this)">Ghazni</div>
-                <div id="op3" class="option" onclick="checkAnswer(this)">Herat</div>
-                <div id="op4" class="option" onclick="checkAnswer(this)">Balkh</div>
+            <div class="row justify-content-around">
+                <div class="score">Score: <span id="score">0</span></div>
+                <div class="time"><span id="time">1:00</span></div>
+                <div class="highscore">Highscore: <span id="highscore">0</span></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="options">
+                    <div id="op1" class="option" onclick="checkAnswer(this)">Option 1</div>
+                    <div id="op2" class="option" onclick="checkAnswer(this)">Option 2</div>
+                    <div id="op3" class="option" onclick="checkAnswer(this)">Option 3</div>
+                    <div id="op4" class="option" onclick="checkAnswer(this)">Option 4</div>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <button class="btn-start btn btn-outline-success" onclick="startQuiz()">Start</button>
+                <button class="btn-end btn btn-outline-danger" onclick="endQuiz()" disabled>End</button>
             </div>
         </div>
     </div>
 
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
