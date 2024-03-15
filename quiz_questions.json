@@ -73,5 +73,55 @@
         "question": "Who is known as the 'Father of Computers'?",
         "options": ["Charles Babbage", "Alan Turing", "Bill Gates", "Steve Jobs"],
         "correctAnswer": "Charles Babbage"
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+        "correctAnswer": "Pacific Ocean"
+    },
+    {
+        "question": "Who wrote 'The Great Gatsby'?",
+        "options": ["F. Scott Fitzgerald", "Ernest Hemingway", "William Faulkner", "John Steinbeck"],
+        "correctAnswer": "F. Scott Fitzgerald"
+    },
+    {
+        "question": "What is the capital of Canada?",
+        "options": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+        "correctAnswer": "Ottawa"
+    },
+    {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "options": ["Japan", "China", "South Korea", "Thailand"],
+        "correctAnswer": "Japan"
+    },
+    {
+        "question": "Who was the first female Prime Minister of the United Kingdom?",
+        "options": ["Margaret Thatcher", "Theresa May", "Angela Merkel", "Jacinda Ardern"],
+        "correctAnswer": "Margaret Thatcher"
+    },
+    {
+        "question": "Which chemical element has the symbol 'Fe'?",
+        "options": ["Iron", "Gold", "Silver", "Copper"],
+        "correctAnswer": "Iron"
+    },
+    {
+        "question": "What is the tallest mountain in the world?",
+        "options": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"],
+        "correctAnswer": "Mount Everest"
+    },
+    {
+        "question": "Who discovered penicillin?",
+        "options": ["Alexander Fleming", "Louis Pasteur", "Marie Curie", "Robert Koch"],
+        "correctAnswer": "Alexander Fleming"
+    },
+    {
+        "question": "What is the chemical formula for water?",
+        "options": ["H2O", "CO2", "NaCl", "C6H12O6"],
+        "correctAnswer": "H2O"
+    },
+    {
+        "question": "Which artist painted the 'Starry Night'?",
+        "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+        "correctAnswer": "Vincent van Gogh"
     }
 ]

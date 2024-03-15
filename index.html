@@ -12,23 +12,27 @@
 
 <body>
     <div class="container">
-        <div class="quiz-container">
+        <div class="quiz-container shadow">
             <div class="row justify-content-center">
-                <div class="question pl-3 pt-3">
+                <div class="question pl-3 pt-3 border border-primary">
                     <h2 id="question-text">Click 'Start' Button to Start</h2>
                 </div>
             </div>
             <div class="row justify-content-around">
-                <div class="score">Score: <span id="score">0</span></div>
-                <div class="time"><span id="time">1:00</span></div>
-                <div class="highscore">Highscore: <span id="highscore">0</span></div>
+                <div class="score border border-success rounded">Score: <span id="score">0</span></div>
+                <div class="time border border-warning rounded"><span id="time"><strong>1:00</strong></span></div>
+                <div class="highscore border border-success rounded">Highscore: <span id="highscore">0</span></div>
             </div>
             <div class="row justify-content-center">
                 <div class="options">
-                    <div id="op1" class="option" onclick="checkAnswer(this)">Option 1</div>
-                    <div id="op2" class="option" onclick="checkAnswer(this)">Option 2</div>
-                    <div id="op3" class="option" onclick="checkAnswer(this)">Option 3</div>
-                    <div id="op4" class="option" onclick="checkAnswer(this)">Option 4</div>
+                    <div id="op1" class="option" onclick="checkAnswer(this)">Option 1
+                    </div>
+                    <div id="op2" class="option" onclick="checkAnswer(this)">Option 2
+                    </div>
+                    <div id="op3" class="option" onclick="checkAnswer(this)">Option 3
+                    </div>
+                    <div id="op4" class="option" onclick="checkAnswer(this)">Option 4
+                    </div>
                 </div>
             </div>
             <div class="row justify-content-around">
